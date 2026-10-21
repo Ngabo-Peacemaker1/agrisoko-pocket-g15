@@ -1,0 +1,107 @@
+{
+  "groupCode": "G15",
+  "version": "1.0.0",
+  "members": [
+    {
+      "id": "m1",
+      "fullName": "Ngabo Peacemaker",
+      "registrationNumber": "REG001",
+      "aliases": ["peace", "leader"],
+      "githubUsername": "Ngabo-Peacemaker1",
+      "role": "Team Leader and AI Engineer",
+      "skills": ["Python", "FastAPI", "scikit-learn", "React Native", "GitHub"],
+      "targetUser": "Potato cooperative members in Musanze",
+      "problem": "Users cannot easily identify who built which feature",
+      "contribution": "Built the AI matching engine and the FastAPI service",
+      "feature": "AI profile finder with offline fallback",
+      "outcomeMetric": "Top-1 accuracy 90 percent on 20 test queries",
+      "evidenceLinks": {
+        "github": "https://github.com/Ngabo-Peacemaker1/agrisoko-pocket-g15",
+        "pullRequest": "https://github.com/Ngabo-Peacemaker1/agrisoko-pocket-g15/pull/1",
+        "commit": "https://github.com/Ngabo-Peacemaker1/agrisoko-pocket-g15/commit/HEAD",
+        "demo": "https://github.com/Ngabo-Peacemaker1/agrisoko-pocket-g15/releases/tag/v1.0.0"
+      },
+      "testerFeedback": {
+        "tester": "Student (consented)",
+        "observation": "Results appeared in under 2 seconds",
+        "date": "2026-10-18"
+      },
+      "introductionDraft": "My name is Ngabo Peacemaker. I lead AgriSoko Pocket G15 and built the AI matching engine and offline cache. 18 of 20 test queries returned the correct member."
+    },
+    {
+      "id": "m2",
+      "fullName": "Member Two",
+      "registrationNumber": "REG002",
+      "aliases": ["m2"],
+      "githubUsername": "member2",
+      "role": "Mobile Developer",
+      "skills": ["React Native", "TypeScript"],
+      "targetUser": "Cooperative members",
+      "problem": "Needs offline profile lookup",
+      "contribution": "Built the offline cache layer",
+      "feature": "Offline matching",
+      "outcomeMetric": "Works on 2 tested Android devices",
+      "evidenceLinks": {
+        "github": "https://github.com/Ngabo-Peacemaker1/agrisoko-pocket-g15",
+        "pullRequest": "https://github.com/Ngabo-Peacemaker1/agrisoko-pocket-g15/pull/2",
+        "commit": "https://github.com/Ngabo-Peacemaker1/agrisoko-pocket-g15/commit/HEAD"
+      },
+      "testerFeedback": {
+        "tester": "Lecturer (consented)",
+        "observation": "Offline badge clearly shows",
+        "date": "2026-10-18"
+      },
+      "introductionDraft": "My name is Member Two. I built the offline matching layer that lets AgriSoko Pocket work without network."
+    },
+    {
+      "id": "m3",
+      "fullName": "Member Three",
+      "registrationNumber": "REG003",
+      "aliases": ["m3"],
+      "githubUsername": "member3",
+      "role": "UI Designer",
+      "skills": ["Figma", "React Native", "Accessibility"],
+      "targetUser": "Field workers",
+      "problem": "Screen usability on small phones",
+      "contribution": "Designed all app screens and accessibility",
+      "feature": "Accessible UI layouts",
+      "outcomeMetric": "Tested on 2 device sizes with large text",
+      "evidenceLinks": {
+        "github": "https://github.com/Ngabo-Peacemaker1/agrisoko-pocket-g15",
+        "pullRequest": "https://github.com/Ngabo-Peacemaker1/agrisoko-pocket-g15/pull/3",
+        "commit": "https://github.com/Ngabo-Peacemaker1/agrisoko-pocket-g15/commit/HEAD"
+      },
+      "testerFeedback": {
+        "tester": "Student (consented)",
+        "observation": "Large text works well",
+        "date": "2026-10-18"
+      },
+      "introductionDraft": "My name is Member Three. I designed the AgriSoko Pocket interface with accessibility and readability in mind."
+    },
+    {
+      "id": "m4",
+      "fullName": "Member Four",
+      "registrationNumber": "REG004",
+      "aliases": ["m4"],
+      "githubUsername": "member4",
+      "role": "QA Tester",
+      "skills": ["Testing", "Documentation"],
+      "targetUser": "Team",
+      "problem": "Need reliable queries",
+      "contribution": "Wrote the AI query test suite",
+      "feature": "Query evaluation",
+      "outcomeMetric": "18/20 correct, no-match rejection 90 percent",
+      "evidenceLinks": {
+        "github": "https://github.com/Ngabo-Peacemaker1/agrisoko-pocket-g15",
+        "pullRequest": "https://github.com/Ngabo-Peacemaker1/agrisoko-pocket-g15/pull/4",
+        "commit": "https://github.com/Ngabo-Peacemaker1/agrisoko-pocket-g15/commit/HEAD"
+      },
+      "testerFeedback": {
+        "tester": "Student (consented)",
+        "observation": "Test log was clear",
+        "date": "2026-10-18"
+      },
+      "introductionDraft": "My name is Member Four. I wrote the AI evaluation suite covering name, role, feature, and no-match queries."
+    }
+  ]
+}

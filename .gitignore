@@ -10,6 +10,10 @@ __pycache__/
 *.pyc
 .pytest_cache/
 
+# Generated model artifacts
+model/
+*.pkl
+
 # Env
 .env
 .env.local
