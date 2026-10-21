@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "AgriSoko Pocket G15",
+    "slug": "agrisoko-pocket-g15",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2e7d32"
+    },
+    "android": {
+      "package": "com.ines.agrisokopocketg15",
+      "versionCode": 1
+    },
+    "extra": {
+      "apiUrl": "https://agrisoko-pocket-g15-3.onrender.com"
+    }
+  }
+}
