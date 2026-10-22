@@ -3,7 +3,7 @@ import Constants from 'expo-constants';
 
 export const API_BASE_URL =
   (Constants.expoConfig?.extra as any)?.apiUrl ||
-  'https://agrisoko-g15-api.onrender.com';
+  'https://agrisoko-pocket-g15-3.onrender.com';
 
 const client = axios.create({ baseURL: API_BASE_URL, timeout: 15000 });
 

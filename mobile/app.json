@@ -4,19 +4,25 @@
     "slug": "agrisoko-pocket-g15",
     "version": "1.0.0",
     "orientation": "portrait",
-    "userInterfaceStyle": "light",
     "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#2e7d32"
+      "backgroundColor": "#ffffff"
     },
     "android": {
-      "package": "com.ines.agrisokopocketg15",
-      "versionCode": 1
+      "package": "com.agrisoko.pocketg15",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundColor": "#ffffff",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
     },
     "extra": {
-      "apiUrl": "https://agrisoko-pocket-g15-3.onrender.com"
+      "eas": {
+        "projectId": "6b4e1ec4-b8d4-4d89-90ab-d7e5ed353d04"
+      }
     }
   }
 }
