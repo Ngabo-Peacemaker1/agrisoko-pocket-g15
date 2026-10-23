@@ -17,13 +17,30 @@ export default function HomeScreen({ navigation }: any) {
         Group Code: G15 · Version 1.0.0 · {members.length} members loaded
       </Text>
 
-      <TouchableOpacity style={styles.btn} onPress={() => navigation.navigate('Ask')}>
+      <TouchableOpacity 
+        style={styles.btn} 
+        onPress={() => navigation.navigate('Ask')}
+        accessibilityRole="button"
+        accessibilityLabel="Ask the team a question using AI"
+      >
         <Text style={styles.btnText}>Ask the Team</Text>
       </TouchableOpacity>
-      <TouchableOpacity style={[styles.btn, styles.btnAlt]} onPress={() => navigation.navigate('Directory')}>
+      
+      <TouchableOpacity 
+        style={[styles.btn, styles.btnAlt]} 
+        onPress={() => navigation.navigate('Directory')}
+        accessibilityRole="button"
+        accessibilityLabel="Browse the directory of all team members"
+      >
         <Text style={styles.btnText}>Browse Directory</Text>
       </TouchableOpacity>
-      <TouchableOpacity style={[styles.btn, styles.btnAlt]} onPress={() => navigation.navigate('About')}>
+      
+      <TouchableOpacity 
+        style={[styles.btn, styles.btnAlt]} 
+        onPress={() => navigation.navigate('About')}
+        accessibilityRole="button"
+        accessibilityLabel="View application information and evidence"
+      >
         <Text style={styles.btnText}>About & Evidence</Text>
       </TouchableOpacity>
     </ScrollView>
