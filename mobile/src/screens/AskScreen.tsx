@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import {
   View, Text, TextInput, TouchableOpacity, StyleSheet,
-  ActivityIndicator, ScrollView,
+  ActivityIndicator, ScrollView,Alert,
 } from 'react-native';
 import { askQuestion } from '../services/api';
 import { offlineMatch, cacheLastResult } from '../services/offline';
@@ -13,10 +13,22 @@ export default function AskScreen({ navigation }: any) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
-  async function handleAsk() {
+ async function handleAsk() {
     const q = question.trim();
-    if (!q) return setError('Please enter a question.');
-    if (q.length > 500) return setError('Question too long (max 500 chars).');
+    
+    // ====== CONTRIBUTION DE MERCI : Alertes de validation ======
+    if (!q) {
+      Alert.alert("Empty Question", "Please type a question before asking.");
+      setError('Please enter a question.');
+      return;
+    }
+    if (q.length > 200) {
+      Alert.alert("Question too long", "Please keep your question under 200 characters.");
+      setError('Question too long (max 200 chars).');
+      return;
+    }
+    // ==========================================================
+    
     setError('');
 
     if (!isOnline) {
